@@ -1,0 +1,13 @@
+[package]
+name    = "Ray-Tracer_Rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap          = { version = "4.5.23", features = ["derive"] }
+macroquad     = "0.4.13"
+rand          = "0.8.5"
+serde         = { version = "1.0.216", features = ["derive"] }
+three-d-asset = { version = "0.9.1", features = ["obj"] }
+toml          = "0.8.19"
+tri-mesh      = "0.6.1"
